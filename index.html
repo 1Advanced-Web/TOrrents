@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Главная</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style type="text/css">
+	.content{
+		background: #252729;
+		height: 3500px;
+		width: 50%;
+		margin-left: 25%;
+	}
+	.block{
+		margin-left: 12%;
+	}
+	.torrent_img{
+		height: 300px;
+		width: 27%;
+		margin-left: 10px;
+	}
+	.comment_block{
+		width: 90%;
+		height: 100px;
+  		background: black;
+		margin-left: 5%;
+		border-radius: 8px;
+		box-shadow: 0 1px black, 0 0 20px rgba(255, 255, 255, 0.5);
+		margin-top: 30px;
+	}
+	.comment_p{
+
+	}
+	.comment_block>b{
+		font-size: 15px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	.comment_text{
+
+	}
+	#max_size{
+		text-align: center;
+		color: blue;
+		margin-top: 70px;
+		cursor: pointer;
+	}
+	.info_fortorrents{
+		background: #2c2f30;
+		display: flex;
+		justify-content: space-around;
+		margin-top: 5px;
+		text-align: center;
+	}
+	 .info_tr_a{
+		width: 10%;
+		padding: 2px;
+	}
+	.info_tr_b{
+		width: 60%;
+		text-align: center;
+	}
+	.comments{
+		margin-top: 500px;
+	}
+
+	.torrent_block_lenta:hover{
+		border-bottom: 1px solid green;
+	}
+	.games{
+		margin-top: 200px;
+	}
+	.header_text{
+		color: #b0d157;
+		text-align: center;
+		text-shadow: 0 1px black, 0 0 20px rgba(255, 255, 255, 0.5);
+	}
+	#comments_none{
+		display: none;
+	}
+</style>
+<body>
+  <section class="container">
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html" class="nav-icon" title="Home"><span class="icon-home"><img src="img/icons.png">Home</span></a></li>
+        <li><a href="index.html" title="List">Лента</a></li>
+        <li><a href="catalog.html" title="Support">Поддержка</a></li>
+        <li><a href="index.html" title="Comunitius">Сообщества</a></li>
+        <li><a href="torrents.html" title="Torrents">Торренты</a></li>
+        <li><a href="index.html" title="Dop">Дополнения</a></li>
+        <li><a href="index.html" title="Autorization">Авторизация</a></li>
+      </ul>
+    </nav>
+  </section>
+<div id="content" class="content">
+			<div class="lenta">
+		<div class="info_fortorents">Последние 20 торрентов</div>
+		<div class="info_fortorrents">
+			<p class="info_tr_a">Тип</p>
+			<p class="info_tr_b">Название</p>
+			<p class="info_tr_a">Размер</p>
+			<p class="info_tr_a">Публикация</p>
+			<p class="info_tr_a">Раздают</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		<div class="torrent_block_lenta">
+			<p class="tr_a">Торрент</p>
+			<p class="tr_b">Grand Therf Auto: Five</p>
+			<p class="tr_c">40.0 ГБ</p>
+			<p class="tr_c">06.03.2021</p>
+			<p class="tr_c">0</p>
+		</div>
+		
+	</div>
+		<div class="games">
+		<div class="header_text">Топ торрентов</div>
+		<div class="block">
+			<a href="#"><img src="all images/rdr.png" class="torrent_img"></a>
+			<a href="#"><img src="all images/forhonor.png" class="torrent_img"></a>
+			<a href="#"><img src="all images/controlicon.jpg" class="torrent_img"></a>
+		</div>
+		<div class="block">
+			<a href="#"><img src="all images/farcry5icon.jpg" class="torrent_img"></a>
+			<a href="#"><img src="all images/skyrim.png" class="torrent_img"></a>
+			<a href="#"><img src="all images/watchdogs2icon.jpg" class="torrent_img"></a>
+		</div>
+		<div class="block">
+			<a href="#"><img src="all images/mafia2icon.jpg" class="torrent_img"></a>
+			<a href="#"><img src="all images/assasinsunity.png" class="torrent_img"></a>
+			<a href="#"><img src="all images/farcry4icon.jpg" class="torrent_img"></a>
+		</div>
+		<div class="block">
+			<a href="#"><img src="all images/watchdogsicon.jpg" class="torrent_img"></a>
+			<a href="#"><img src="all images/gta5icon.jpg" class="torrent_img"></a>
+			<a href="#"><img src="all images/kod kw.png" class="torrent_img"></a>
+		</div>	
+	</div>
+	<div id="conteiner_for_js_one">
+	<div class="comments">
+		<div class="input-wrapper" data-text="">
+  		<input id="comment_input" type="text" placeholder="Написать коментарий..."><p id="comment_btn">Отправить</p>          
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+	<div id="comments_none">
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+		<div class="comment_block">
+			<p class="comment_p">06.03.2021 5:09</p>
+			<b>Maksim</b>
+			<p class="comment_text">Я хочу сказать что это мои первые коментариии на моем сайте. Хочу сказать спасибо всем кто помогал мне в этом сложном проекте!</p>
+		</div>
+	</div>
+		<p id="max_size">Смотреть далее...</p>
+	</div>
+</div>
+</div>
+
+  <section class="about">
+    <p class="about-links">
+      <a href="http://www.cssflow.com/snippets/dark-horizontal-navigation" target="_parent">Discord</a>
+      <a href="http://www.itgen.io" target="_parent">Itgen.io</a>
+    </p>
+    <p class="about-author">
+      &copy; 2021<a href="http://thibaut.me" target="_blank">Itgen.io</a> -
+      Hakaton<br>
+      By <a href="vkgroup.html" target="_blank">ChattyGenio</a>
+    </p>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
